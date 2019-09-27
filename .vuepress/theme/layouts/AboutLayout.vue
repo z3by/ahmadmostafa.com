@@ -2,10 +2,11 @@
   <div>
     <div align="center" class="card">
       <div class="card-header">
-        <img src="../../assets/images/bg_1 copy.png" alt />
+        <img src="../../assets/images/bg_1 copy.png" alt="Ahmad Mostafa" class="card-img" />
         <h1>Ahmad Mostafa</h1>
       </div>
       <p>I'm a passionate, persistent, self-directed, autonomous learner Full Stack Software Engineer. I Enjoy building cool 😎 scalable ⏫ well designed 📐 fast 🚀 web and mobile apps using the cutting-edge languages and frameworks, I work with LOVE 🥰 and live by challenges.</p>
+      <hr />
       <ul class="contact" v-if="contact">
         <li class="contact-item" v-for="item in contact">
           <NavLink :link="item.link">
@@ -87,6 +88,20 @@ export default {
   margin-right: auto;
   margin-left: auto;
   overflow: hidden;
+  transition: all 0.4s ease;
+
+  .card-img {
+    transition: all 0.4s ease;
+  }
+
+  &:hover {
+    transform: rotate(1deg);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+    .card-img {
+      transform: rotate(-1deg);
+    }
+  }
 
   .card-header {
     background: linear-gradient(to right, #009FFF, #ec2F4B);
