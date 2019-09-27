@@ -87,6 +87,7 @@ export default {
   max-width: 450px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 100px;
   overflow: hidden;
   transition: all 0.4s ease;
 

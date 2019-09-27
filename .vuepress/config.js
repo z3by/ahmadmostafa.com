@@ -42,12 +42,13 @@ module.exports = {
       ],
       copyright: [
         {
-          text: "Privacy Policy",
-          link: "https://policies.google.com/privacy?hl=en-US"
+          text: "Built using Vuepress-Blog-Template",
+          link: "https://github.com/z3by/vuepress-blog-template"
         },
         {
           text: `MIT Licensed | Copyright © ${new Date().getFullYear()}-present`,
-          link: ""
+          link:
+            "https://github.com/z3by/vuepress-blog-template/blob/master/LICENSE"
         }
       ]
     }
@@ -63,18 +64,7 @@ module.exports = {
             path: "/",
             layout: "IndexPost",
             itemLayout: "Post",
-            itemPermalink: "/:year/:month/:day/:slug",
-            pagination: {
-              perPagePosts: 5
-            }
-          },
-          {
-            id: "archive",
-            dirname: "_archive",
-            path: "/archive/",
-            layout: "IndexArchive",
-            itemLayout: "Post",
-            itemPermalink: "/archive/:year/:month/:day/:slug",
+            itemPermalink: "/:slug",
             pagination: {
               perPagePosts: 5
             }
@@ -93,6 +83,14 @@ module.exports = {
             }
           }
         ]
+      }
+    ],
+    ["@vuepress/nprogress"],
+    ["@vuepress/back-to-top"],
+    [
+      "@vuepress/google-analytics",
+      {
+        ga: "UA-144752623-2"
       }
     ]
   ]

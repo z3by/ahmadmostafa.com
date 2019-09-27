@@ -1,17 +1,27 @@
 <template>
   <div id="base-list-layout" align="center">
+    <header class="home-hero">
+      <h1>AHMAD MOSTAFA</h1>
+      <h3>
+        I'm a Full Stack Software Engineer,
+        I like to learn new things, and love to share my knowledge, I am in love with Python, modern JavaScript and AWS.
+      </h3>
+    </header>
     <div class="ui-posts" align="left">
+      <h2>Latest Articles</h2>
       <div class="ui-post" v-for="page in pages" v-if="page.frontmatter.published">
         <div class="ui-post-image" :style="{backgroundImage: `url(${page.frontmatter.image})`}"></div>
-        <div class="ui-post-title">
-          <NavLink :link="page.path">{{ page.title }}</NavLink>
-        </div>
-        <div class="ui-post-description">
-          {{ page.frontmatter.description || page.description }}...
-          <!-- <Content :page-key="page.key" slot-key="intro"/>-->
+        <div class="ui-post-body">
+          <div class="ui-post-title">
+            <NavLink :link="page.path">{{ page.title }}</NavLink>
+          </div>
+          <div class="ui-post-description">
+            {{ page.frontmatter.description || page.description }}...
+            <!-- <Content :page-key="page.key" slot-key="intro"/>-->
+          </div>
         </div>
         <hr />
-        <div class="ui-post-date" v-if="page.frontmatter.date">
+        <div class="ui-post-footer">
           <CalendarIcon />
           <span>{{ new Date(page.frontmatter.date.trim()).toDateString() }}</span>
           <span class="mx-1">|</span>
@@ -25,7 +35,7 @@
           <span>{{ page.frontmatter.location }}</span>
           <span class="mx-1">|</span>
           <div class="tags">
-            <span class="mx-1">Tags: </span>
+            <span class="mx-1">Tags:</span>
             <div>
               <router-link
                 class="tag-sm"
@@ -95,13 +105,43 @@ export default {
   }
 }
 
+header.home-hero {
+  height: 600px;
+  background-image: url('../../assets/images/hero.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    color: white;
+    margin: 0;
+    font-size: 4em;
+
+    @media (max-width: 600px) {
+      font-size: 2em;
+    }
+  }
+
+  h3 {
+    color: darken(white, 9%);
+    margin-top: 0;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 300;
+  }
+}
+
 .ui-posts {
   max-width: 800px;
+  margin-top: 50px;
 }
 
 .ui-post {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-  padding: 25px;
+  padding: 10px;
   padding-top: 15px;
   margin-bottom: 25px;
   border-radius: 14px;
@@ -122,16 +162,21 @@ export default {
   }
 }
 
+.ui-post-body {
+  padding: 15px;
+}
+
 .ui-post-image {
-  height: 180px;
+  height: 200px;
   background-size: cover;
-  margin-bottom 15px;
-  border-radius 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
 }
 
 .ui-post-title {
   font-size: 24px;
   border-bottom: 0;
+  margin-bottom 10px;
 
   a {
     cursor: pointer;
@@ -146,7 +191,7 @@ export default {
 }
 
 .ui-post-description {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 15px;
   color: rgba(0, 0, 0, 0.54);
   font-weight: 200;
@@ -182,12 +227,13 @@ export default {
   }
 }
 
-.ui-post-date {
+.ui-post-footer {
   display: flex;
   align-items: center;
   font-size: 12px;
   color: rgba(0, 0, 0, 0.54);
   font-weight: 200;
+  padding: 15px 0px 15px 15px;
 
   svg {
     margin-right: 5px;

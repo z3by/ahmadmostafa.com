@@ -42,15 +42,15 @@ export default {
 
 <style lang="stylus">
 .content-wrapper {
-  padding: 160px 15px 80px 15px;
-  min-height: calc(100vh - 80px - 60px - 160px);
+  padding: 70px 0px 80px 0px;
+  min-height: calc(100vh - 80px - 60px - 70px);
   margin: 0 auto;
 }
 
 @media (max-width: $MQMobile) {
   .content-wrapper {
-    padding: 100px 15px 20px 15px;
-    min-height: calc(100vh - 20px - 60px - 100px);
+    padding: 70px 0px 20px 0px;
+    min-height: calc(100vh - 20px - 60px - 70px);
   }
 }
 </style>
