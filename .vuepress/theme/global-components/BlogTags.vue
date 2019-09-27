@@ -1,5 +1,5 @@
 <template>
-  <div class="blog-tags">
+  <div class="blog-tags" align="center">
     <BlogTag
       v-for="tag in tags"
       :key="tag.name"

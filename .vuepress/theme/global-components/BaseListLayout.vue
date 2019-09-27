@@ -1,35 +1,39 @@
 <template>
-  <div id="base-list-layout">
-    <div class="ui-posts">
+  <div id="base-list-layout" align="center">
+    <div class="ui-posts" align="left">
       <div class="ui-post" v-for="page in pages" v-if="page.frontmatter.published">
+        <div class="ui-post-image" :style="{backgroundImage: `url(${page.frontmatter.image})`}"></div>
         <div class="ui-post-title">
           <NavLink :link="page.path">{{ page.title }}</NavLink>
         </div>
-
         <div class="ui-post-description">
           {{ page.frontmatter.description || page.description }}...
           <!-- <Content :page-key="page.key" slot-key="intro"/>-->
         </div>
-        <div class="tags">
-          <div>
-            <router-link
-              class="tag-sm"
-              v-for="tag in page.frontmatter.tags"
-              :to="'/tag/' + tag"
-            >#{{ tag }}</router-link>
-          </div>
-        </div>
         <hr />
         <div class="ui-post-date" v-if="page.frontmatter.date">
-          <ClockIcon />
+          <CalendarIcon />
           <span>{{ new Date(page.frontmatter.date.trim()).toDateString() }}</span>
           <span class="mx-1">|</span>
+          <ClockIcon />
           <span>
             Time to read:
             <b>{{ page.frontmatter.time_to_read }}</b> min
           </span>
           <span class="mx-1">|</span>
-          <span>{{ page.frontmatter.author }} in {{ page.frontmatter.location }}</span>
+          <NavigationIcon />
+          <span>{{ page.frontmatter.location }}</span>
+          <span class="mx-1">|</span>
+          <div class="tags">
+            <span class="mx-1">Tags: </span>
+            <div>
+              <router-link
+                class="tag-sm"
+                v-for="tag in page.frontmatter.tags"
+                :to="'/tag/' + tag"
+              >#{{ tag }}</router-link>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -42,14 +46,14 @@
 /* global THEME_BLOG_PAGINATION_COMPONENT */
 
 import Vue from "vue";
-import { NavigationIcon, ClockIcon } from "vue-feather-icons";
+import { NavigationIcon, ClockIcon, CalendarIcon } from "vue-feather-icons";
 import {
   Pagination,
   SimplePagination
 } from "@vuepress/plugin-blog/lib/client/components";
 
 export default {
-  components: { NavigationIcon, ClockIcon },
+  components: { NavigationIcon, ClockIcon, CalendarIcon },
 
   data() {
     return {
@@ -91,9 +95,14 @@ export default {
   }
 }
 
+.ui-posts {
+  max-width: 800px;
+}
+
 .ui-post {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
   padding: 25px;
+  padding-top: 15px;
   margin-bottom: 25px;
   border-radius: 14px;
   border-bottom: 1px solid #f1f1f1;
@@ -111,6 +120,13 @@ export default {
   p {
     margin: 0;
   }
+}
+
+.ui-post-image {
+  height: 180px;
+  background-size: cover;
+  margin-bottom 15px;
+  border-radius 10px;
 }
 
 .ui-post-title {
@@ -144,9 +160,9 @@ export default {
 
   .tag-sm {
     margin: 0 4px;
-    padding  0 5px;
+    padding: 0 5px;
     text-decoration: none;
-    border 1px solid $accentColor
+    border: 1px solid $accentColor;
   }
 }
 

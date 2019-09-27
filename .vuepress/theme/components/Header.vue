@@ -39,7 +39,7 @@ export default {
   background-color: #FFF;
   padding: 15px 20px;
   margin: auto;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.05);
   transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
 
   ol, ul {
@@ -110,6 +110,7 @@ export default {
         border-radius: 20px;
         transition: all 0.5s;
         border: 1px solid #cecece;
+        background rgba(255, 255, 255, 0.4)
 
         &:hover {
           border: 1px solid $accentColor;
