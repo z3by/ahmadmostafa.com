@@ -92,8 +92,7 @@ ol, ul {
 .footer {
   height: 60px;
   box-sizing: border-box;
-  // background-color darken(#3eaf7c, 70%)
-  background-color: darken(#5196A6, 70%);
+  background-color: #000;
   color: #FFF;
   display: flex;
   padding: 15px 32px;

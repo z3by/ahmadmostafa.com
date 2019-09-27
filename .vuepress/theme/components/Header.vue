@@ -8,7 +8,7 @@
         <div class="header-right-wrap">
           <ul class="nav" v-if="$themeConfig.nav">
             <li class="nav-item" v-for="item in $themeConfig.nav">
-              <NavLink :link="item.link"> {{ item.text }}</NavLink>
+              <NavLink :link="item.link">{{ item.text }}</NavLink>
             </li>
           </ul>
           <SearchBox />
@@ -35,7 +35,7 @@ export default {
   top: 0;
   width: 100vw;
   box-sizing: border-box;
-  // background lighten(#3eaf7c, 90%)
+  background: linear-gradient(to right, #FC5C7D, #6A82FB);
   background-color: #FFF;
   padding: 15px 20px;
   margin: auto;
@@ -60,8 +60,6 @@ export default {
   height: 40px;
 
   .title {
-    // color #3eaf7c
-    // color lighten(#3eaf7c, 10%)
     /* flex 0 0 200px */
     color: #222;
     font-size: 22px;
@@ -71,7 +69,7 @@ export default {
     text-transform: uppercase;
 
     a {
-      color: #222;
+      color: #fff;
       font-weight: bold;
       text-decoration: none;
     }
@@ -93,9 +91,14 @@ export default {
 
         a {
           font-size: 18px;
-          // color lighten(#3eaf7c, 30%)
+          color: darken(#fff, 10%);
           text-decoration: none;
           transition: color 0.3s;
+
+          &.router-link-exact-active.router-link-active {
+            color: #fff;
+            font-weight bold;
+          }
         }
       }
     }

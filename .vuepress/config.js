@@ -1,16 +1,12 @@
 module.exports = {
-  title: "Vuepress blog template",
-  description: "vuepress blog template",
+  title: "Ahmad Mostafa",
+  description: "Full Stack Software Engineer",
   theme: "@vuepress/theme-blog",
   themeConfig: {
     nav: [
       {
         text: "Home",
         link: "/"
-      },
-      {
-        text: "Archive",
-        link: "/archive/"
       },
       {
         text: "Tags",
