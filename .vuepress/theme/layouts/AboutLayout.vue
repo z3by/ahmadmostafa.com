@@ -2,10 +2,10 @@
   <div>
     <div align="center" class="card">
       <div class="card-header">
-        <img src="../../assets/images/bg_1 copy.png" alt="Ahmad Mostafa" class="card-img" />
-        <h1>Ahmad Mostafa</h1>
+        <img src="../../assets/images/bg_1.png" alt="Ahmad Mostafa" class="card-img" />
+        <h1>{{ $themeConfig.title }}</h1>
       </div>
-      <p>I'm a passionate, persistent, self-directed, autonomous learner Full Stack Software Engineer. I Enjoy building cool 😎 scalable ⏫ well designed 📐 fast 🚀 web and mobile apps using the cutting-edge languages and frameworks, I work with LOVE 🥰 and live by challenges.</p>
+      <p>{{ $themeConfig.fullDescription }}</p>
       <hr />
       <ul class="contact" v-if="contact">
         <li class="contact-item" v-for="item in contact">

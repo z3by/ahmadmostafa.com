@@ -3,6 +3,8 @@ module.exports = {
   description: "Full Stack Software Engineer",
   theme: "@vuepress/theme-blog",
   themeConfig: {
+    profilePhoto: "@theme/assets/images/bg_1.png",
+    fullDescription: "I'm a passionate, persistent, self-directed, autonomous learner Full Stack Software Engineer. I Enjoy building cool 😎 scalable ⏫ well designed 📐 fast 🚀 web and mobile apps using the cutting-edge languages and frameworks, I work with LOVE 🥰 and live by challenges.",
     nav: [
       {
         text: "Home",
@@ -46,7 +48,7 @@ module.exports = {
           link: "https://github.com/z3by/vuepress-blog-template"
         },
         {
-          text: `MIT Licensed | Copyright © ${new Date().getFullYear()}-present`,
+          text: `MIT Licensed Copyright © ${new Date().getFullYear()}-present`,
           link:
             "https://github.com/z3by/vuepress-blog-template/blob/master/LICENSE"
         }

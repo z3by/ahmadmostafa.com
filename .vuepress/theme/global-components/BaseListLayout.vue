@@ -1,11 +1,8 @@
 <template>
   <div id="base-list-layout" align="center">
     <header class="home-hero">
-      <h1>AHMAD MOSTAFA</h1>
-      <h3>
-        I'm a Full Stack Software Engineer,
-        I like to learn new things, and love to share my knowledge, I am in love with Python, modern JavaScript and AWS.
-      </h3>
+      <h1>{{ $site.title }}</h1>
+      <h3>{{ $site.description }}</h3>
     </header>
     <div class="ui-posts" align="left">
       <h2>Latest Articles</h2>
@@ -15,10 +12,7 @@
           <div class="ui-post-title">
             <NavLink :link="page.path">{{ page.title }}</NavLink>
           </div>
-          <div class="ui-post-description">
-            {{ page.frontmatter.description || page.description }}...
-            <!-- <Content :page-key="page.key" slot-key="intro"/>-->
-          </div>
+          <div class="ui-post-description">{{ page.frontmatter.description || page.description }}...</div>
         </div>
         <hr />
         <div class="ui-post-footer">
@@ -27,23 +21,11 @@
           <span class="mx-1">|</span>
           <ClockIcon />
           <span>
-            Time to read:
-            <b>{{ page.frontmatter.time_to_read }}</b> min
+            <b>{{ page.frontmatter.time_to_read }}</b> min read
           </span>
           <span class="mx-1">|</span>
           <NavigationIcon />
           <span>{{ page.frontmatter.location }}</span>
-          <span class="mx-1">|</span>
-          <div class="tags">
-            <span class="mx-1">Tags:</span>
-            <div>
-              <router-link
-                class="tag-sm"
-                v-for="tag in page.frontmatter.tags"
-                :to="'/tag/' + tag"
-              >#{{ tag }}</router-link>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -137,6 +119,8 @@ header.home-hero {
 .ui-posts {
   max-width: 800px;
   margin-top: 50px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .ui-post {
@@ -176,7 +160,7 @@ header.home-hero {
 .ui-post-title {
   font-size: 24px;
   border-bottom: 0;
-  margin-bottom 10px;
+  margin-bottom: 10px;
 
   a {
     cursor: pointer;
@@ -195,20 +179,6 @@ header.home-hero {
   margin-bottom: 15px;
   color: rgba(0, 0, 0, 0.54);
   font-weight: 200;
-}
-
-.tags {
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.54);
-  font-weight: 200;
-  display: flex;
-
-  .tag-sm {
-    margin: 0 4px;
-    padding: 0 5px;
-    text-decoration: none;
-    border: 1px solid $accentColor;
-  }
 }
 
 .ui-post-author {

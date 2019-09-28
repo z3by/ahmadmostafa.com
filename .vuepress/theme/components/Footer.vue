@@ -96,6 +96,7 @@ ol, ul {
   color: #FFF;
   display: flex;
   padding: 15px 32px;
+  word-break: wrap;
 
   .footer-left-wrap {
     line-height: 30px;
@@ -134,15 +135,12 @@ ol, ul {
     }
 
     .copyright {
-      display: flex;
-      justify-content: flex-end;
 
       .copyright-item {
         flex: 0 0 auto;
         padding: 0 10px;
         position: relative;
         line-height: 12px;
-        border-right: 1px solid rgba(255, 255, 255, 0.6);
 
         &:last-child {
           border-right: none;
