@@ -126,15 +126,17 @@ ol, ul {
 
   .footer-right-wrap {
     flex: 1;
-    display: flex;
+    display: none;
     align-items: center;
-    justify-content: center;
 
     @media (min-width: $MQNarrow) {
+      display: flex;
       justify-content: flex-end;
     }
 
     .copyright {
+      display: flex;
+      justify-content: flex-end;
 
       .copyright-item {
         flex: 0 0 auto;

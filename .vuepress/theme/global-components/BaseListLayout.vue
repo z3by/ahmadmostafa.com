@@ -15,18 +15,11 @@
           <div class="ui-post-description">{{ page.frontmatter.description || page.description }}...</div>
         </div>
         <hr />
-        <div class="ui-post-footer">
-          <CalendarIcon />
-          <span>{{ new Date(page.frontmatter.date.trim()).toDateString() }}</span>
-          <span class="mx-1">|</span>
-          <ClockIcon />
-          <span>
-            <b>{{ page.frontmatter.time_to_read }}</b> min read
-          </span>
-          <span class="mx-1">|</span>
-          <NavigationIcon />
-          <span>{{ page.frontmatter.location }}</span>
-        </div>
+        <PostInfo
+          :date="page.frontmatter.date"
+          :timeToRead="page.frontmatter.time_to_read"
+          :location="page.frontmatter.location"
+        />
       </div>
     </div>
 
@@ -38,14 +31,14 @@
 /* global THEME_BLOG_PAGINATION_COMPONENT */
 
 import Vue from "vue";
-import { NavigationIcon, ClockIcon, CalendarIcon } from "vue-feather-icons";
+import PostInfo from "../components/PostInfo";
 import {
   Pagination,
   SimplePagination
 } from "@vuepress/plugin-blog/lib/client/components";
 
 export default {
-  components: { NavigationIcon, ClockIcon, CalendarIcon },
+  components: { PostInfo },
 
   data() {
     return {
@@ -195,25 +188,6 @@ header.home-hero {
     width: 14px;
     height: 14px;
   }
-}
-
-.ui-post-footer {
-  display: flex;
-  align-items: center;
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.54);
-  font-weight: 200;
-  padding: 15px 0px 15px 15px;
-
-  svg {
-    margin-right: 5px;
-    width: 14px;
-    height: 14px;
-  }
-}
-
-.mx-1 {
-  margin: 0 8px;
 }
 </style>
 
