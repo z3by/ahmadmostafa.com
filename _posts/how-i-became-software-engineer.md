@@ -14,6 +14,11 @@ description: seems strange? read the full story.
 author: Ahmad Mostafa
 location: Amman-Jordan
 image: /images/0.jpeg
+meta:
+  - name: description
+    content: how I became a software engineer
+  - name: keywords
+    content: Ahmad Mostafa, Syrian Refugee, Success Story, python, django, vue.js, RBK, Jordan, software engineer
 ---
 
 
