@@ -35,7 +35,7 @@ export default {
   top: 0;
   width: 100vw;
   box-sizing: border-box;
-  background: linear-gradient(to right, #FC5C7D, #6A82FB);
+  background: linear-gradient(to right, #C33764, lighten(#41295a, 30%), #6A82FB);
   background-color: #FFF;
   padding: 15px 20px;
   margin: auto;

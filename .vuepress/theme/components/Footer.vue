@@ -92,7 +92,7 @@ ol, ul {
 .footer {
   height: 60px;
   box-sizing: border-box;
-  background-color: #000;
+  background: linear-gradient(to right, #41295a, darken(#2f0743, 70%));
   color: #FFF;
   display: flex;
   padding: 15px 32px;

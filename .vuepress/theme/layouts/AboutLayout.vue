@@ -95,17 +95,8 @@ export default {
     transition: all 0.4s ease;
   }
 
-  &:hover {
-    transform: rotate(1deg);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-
-    .card-img {
-      transform: rotate(-1deg);
-    }
-  }
-
   .card-header {
-    background: linear-gradient(to right, #009FFF, #ec2F4B);
+    background: linear-gradient(to right, #B993D6, #8CA6DB);
     padding-top: 50px;
   }
 
