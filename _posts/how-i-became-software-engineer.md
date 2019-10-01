@@ -13,7 +13,7 @@ title: In 4 Months How I’ve Changed My Life From a Construction Worker To a So
 description: seems strange? read the full story.
 author: Ahmad Mostafa
 location: Amman-Jordan
-image: https://media.licdn.com/dms/image/C4D12AQFqN-9iVDlWKg/article-cover_image-shrink_720_1280/0?e=1574899200&v=beta&t=eRMan9bJyUjZ-ahtPjDbTAELisMhFOAwoNp18MYXeNU
+image: /images/0.jpeg
 ---
 
 

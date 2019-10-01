@@ -4,7 +4,8 @@ module.exports = {
   theme: "@vuepress/theme-blog",
   themeConfig: {
     profilePhoto: "@theme/assets/images/bg_1.png",
-    fullDescription: "I'm a passionate, persistent, self-directed, autonomous learner Full Stack Software Engineer. I Enjoy building cool 😎 scalable ⏫ well designed 📐 fast 🚀 web and mobile apps using the cutting-edge languages and frameworks, I work with LOVE 🥰 and live by challenges.",
+    fullDescription:
+      "I'm a passionate, persistent, self-directed, autonomous learner Full Stack Software Engineer. I Enjoy building cool 😎 scalable ⏫ well designed 📐 fast 🚀 web and mobile apps using the cutting-edge languages and frameworks, I work with LOVE 🥰 and live by challenges.",
     nav: [
       {
         text: "Home",
@@ -93,6 +94,12 @@ module.exports = {
       "@vuepress/google-analytics",
       {
         ga: "UA-144752623-2"
+      }
+    ],
+    [
+      "sitemap",
+      {
+        hostname: "https://ahmadmostafa.com"
       }
     ]
   ]

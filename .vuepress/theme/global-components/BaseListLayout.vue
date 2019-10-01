@@ -82,7 +82,7 @@ export default {
 
 header.home-hero {
   height: 600px;
-  background-image: url('../../assets/images/hero.jpeg');
+  background-image: url('/images/hero.jpeg');
   background-size: cover;
   background-attachment: fixed;
   display: flex;
