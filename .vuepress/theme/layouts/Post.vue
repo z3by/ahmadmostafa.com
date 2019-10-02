@@ -11,6 +11,9 @@
       <hr />
       <Content />
       <Toc />
+      <ClientOnly>
+        <Disqus shortname="ahmadmostafa" />
+      </ClientOnly>
     </main>
   </div>
 </template>
@@ -33,7 +36,7 @@ export default {
   letter-spacing: 0px;
   color: #2c3e50;
   position: relative;
-  padding 15px;
+  padding: 15px;
 }
 </style>
 

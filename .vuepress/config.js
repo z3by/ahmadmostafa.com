@@ -101,6 +101,7 @@ module.exports = {
       {
         hostname: "https://ahmadmostafa.com"
       }
-    ]
+    ],
+    ["disqus"]
   ]
 };
