@@ -3,6 +3,7 @@ module.exports = {
   description: "Full Stack Software Engineer",
   theme: "@vuepress/theme-blog",
   themeConfig: {
+    fullName: "Ahmad Mostafa",
     profilePhoto: "@theme/assets/images/bg_1.png",
     fullDescription:
       "I'm a passionate, persistent, self-directed, autonomous learner Full Stack Software Engineer. I Enjoy building cool 😎 scalable ⏫ well designed 📐 fast 🚀 web and mobile apps using the cutting-edge languages and frameworks, I work with LOVE 🥰 and live by challenges.",
@@ -102,6 +103,7 @@ module.exports = {
         hostname: "https://ahmadmostafa.com"
       }
     ],
-    ["disqus"]
+    ["disqus"],
+    ["seo"]
   ]
 };

@@ -3,7 +3,7 @@
     <div align="center" class="card">
       <div class="card-header">
         <img src="/images/bg_1.png" alt="Ahmad Mostafa" class="card-img" />
-        <h1>{{ $themeConfig.title }}</h1>
+        <h1>{{ $themeConfig.fullName }}</h1>
       </div>
       <p>{{ $themeConfig.fullDescription }}</p>
       <hr />
