@@ -194,6 +194,6 @@ if you are not able to see the new page just restart the development server.
 
 ## Deployment
 
-you can deploy your blog you any hosting service, you can check the official documentation [here](https://vuepress.vuejs.org/guide/deploy.html#github-pages)
+you can deploy your blog to any hosting service, you can check the official documentation [here](https://vuepress.vuejs.org/guide/deploy.html#github-pages)
 
 That's it :grinning:
