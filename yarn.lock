@@ -7346,6 +7346,11 @@ vuepress-plugin-disqus@^0.1.1:
   dependencies:
     vue-disqus "^3.0.5"
 
+vuepress-plugin-reading-progress@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-reading-progress/-/vuepress-plugin-reading-progress-1.0.7.tgz#9a278866b5280e447226579945eded3055ba48ce"
+  integrity sha512-XFnD42/Xt4ZQ3G0j1ViF2WmBJM7f+zYJLKfD2ZEkIq3Ar38c3FKR/LU94aENaWRGnfDMDmAMEYjLrcmR4uq49g==
+
 vuepress-plugin-reading-time@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-reading-time/-/vuepress-plugin-reading-time-0.1.1.tgz#3ea3dcded424a00c1d5175a50af8d5694899f1ea"

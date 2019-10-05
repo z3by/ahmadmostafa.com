@@ -106,6 +106,7 @@ module.exports = {
     ["disqus"],
     ["seo"],
     ["reading-time"],
-    ["smooth-scroll"]
+    ["smooth-scroll"],
+    ["reading-progress"]
   ]
 };
