@@ -6,7 +6,7 @@
     </div>
     <div class="post-info-item" v-if="timeToRead">
       <ClockIcon />
-      <b>{{ timeToRead }}</b> min read
+      {{ timeToRead }}
     </div>
     <div class="post-info-item">
       <NavigationIcon />

@@ -17,7 +17,7 @@
         <hr />
         <PostInfo
           :date="page.frontmatter.date"
-          :timeToRead="page.frontmatter.time_to_read"
+          :timeToRead="page.readingTime.text"
           :location="page.frontmatter.location"
         />
       </div>

@@ -104,6 +104,7 @@ module.exports = {
       }
     ],
     ["disqus"],
-    ["seo"]
+    ["seo"],
+    ["reading-time"]
   ]
 };

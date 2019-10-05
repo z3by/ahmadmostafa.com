@@ -5,7 +5,7 @@
       <h1>{{ $frontmatter.title }}</h1>
       <PostInfo
         :date="$frontmatter.date"
-        :timeToRead="$frontmatter.time_to_read"
+        :timeToRead="$page.readingTime.text"
         :location="$frontmatter.location"
       />
       <hr />
