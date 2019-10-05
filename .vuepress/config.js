@@ -107,6 +107,12 @@ module.exports = {
     ["seo"],
     ["reading-time"],
     ["smooth-scroll"],
-    ["reading-progress"]
+    ["reading-progress"],
+    [
+      "social-share",
+      {
+        networks: ["twitter", "facebook"]
+      }
+    ]
   ]
 };
