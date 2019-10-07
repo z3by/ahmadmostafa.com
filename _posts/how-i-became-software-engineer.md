@@ -65,3 +65,7 @@ when I finished the boot camp I can tell you that RBK made a new Ahmad, I was en
 moments were I laughed, smiled, learned, grew up, failed and succeed, moments were I got tired, exhausted, happy, angry, lost, feelings that I had and feelings I never had before.
 
 and now ? I’m A new Ahmad with bigger dreams, bigger hopes, and bigger vision, I am now a lifetime learner, I can tell you that here I found myself and I am now a better human being.
+
+## note
+
+this articles contains a lot of grammar issues, I wrote it long time ago, but a wise man told me not to fix grammars because one day I will be proud of them.
