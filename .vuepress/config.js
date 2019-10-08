@@ -1,12 +1,9 @@
 module.exports = {
   title: "Ahmad Mostafa",
   description: "Full Stack Software Engineer",
-  theme: "@vuepress/theme-blog",
+  theme: "modern-blog",
   themeConfig: {
-    fullName: "Ahmad Mostafa",
-    profilePhoto: "@theme/assets/images/bg_1.png",
-    fullDescription:
-      "I'm a passionate, persistent, self-directed, autonomous learner Full Stack Software Engineer. I Enjoy building cool 😎 scalable ⏫ well designed 📐 fast 🚀 web and mobile apps using the cutting-edge languages and frameworks, I work with LOVE 🥰 and live by challenges.",
+    heroImage: "/images/hero.jpeg",
     nav: [
       {
         text: "Home",
@@ -21,6 +18,18 @@ module.exports = {
         link: "/pages/about/"
       }
     ],
+    about: {
+      fullName: "Ahmad Mostafa",
+      image: "/images/bg_1.png",
+      bio:
+        "I'm a passionate, persistent, self-directed, autonomous learner Full Stack Software Engineer. I Enjoy building cool 😎 scalable ⏫ well designed 📐 fast 🚀 web and mobile apps using the cutting-edge languages and frameworks, I work with LOVE 🥰 and live by challenges."
+    },
+    disqus: "ahmadmostafa",
+    googleAnalytics: "UA-144752623-2",
+    sitemap: true,
+    hostname: "https://ahmadmostafa.com/",
+    socialShare: true,
+    socialShareNetworks: ["twitter", "facebook"],
     footer: {
       contact: [
         {
@@ -87,31 +96,6 @@ module.exports = {
             }
           }
         ]
-      }
-    ],
-    ["@vuepress/nprogress"],
-    ["@vuepress/back-to-top"],
-    [
-      "@vuepress/google-analytics",
-      {
-        ga: "UA-144752623-2"
-      }
-    ],
-    [
-      "sitemap",
-      {
-        hostname: "https://ahmadmostafa.com"
-      }
-    ],
-    ["disqus"],
-    ["seo"],
-    ["reading-time"],
-    ["smooth-scroll"],
-    ["reading-progress"],
-    [
-      "social-share",
-      {
-        networks: ["twitter", "facebook"]
       }
     ]
   ]

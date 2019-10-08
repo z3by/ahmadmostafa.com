@@ -923,24 +923,10 @@
   dependencies:
     medium-zoom "^0.4.0"
 
-"@vuepress/plugin-medium-zoom@^1.0.0-rc.1":
-  version "1.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.0.0-rc.1.tgz#78b81aad55621cf192667421eb73497cfe265068"
-  integrity sha512-yjMtzat6SUIsXHEjPn2xDYDqBdvRjJ9sZamBMAlodc95+P4BOce/VB6Q9VJeoCQ+Y7EW6hqisM8bQxluRWfbtA==
-  dependencies:
-    medium-zoom "^0.4.0"
-
 "@vuepress/plugin-nprogress@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-nprogress/-/plugin-nprogress-1.0.0.tgz#a7777a54415cb6d6025e188c40180f8ec4e2837e"
   integrity sha512-uXsqit9k4ZPXl3U+SYbBNwHe9q6XJnqDwYE1UDkCS619cU5GlW2A0crfrvlXyiKVrwZ2+QLkrwpdgSRDvXJMFA==
-  dependencies:
-    nprogress "^0.2.0"
-
-"@vuepress/plugin-nprogress@^1.0.0-rc.1":
-  version "1.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-nprogress/-/plugin-nprogress-1.0.0-rc.1.tgz#1e5a07ce11d72d512afa2311f10043d1a0060f46"
-  integrity sha512-WPYY/dnddcjb/WLSxGidtdE/Rag57r21JZ8GDEA8UGOvv7gx3gS/BoMD3LTsFEOUctpXTMYjZJrdwTv+MxZLoQ==
   dependencies:
     nprogress "^0.2.0"
 
@@ -7662,6 +7648,29 @@ vuepress-plugin-social-share@^0.0.6:
   integrity sha512-Iu2ighFOUGd3bx3J3FXL7Nc/XXX6clvnKfW3QlckepUv+R9O00dEWyhe/MWZYNP0AyHzaXDUTbCxLLBCwMJpoA==
   dependencies:
     "@goy/vuepress-plugin-svg-icons" "^3.1.1"
+
+vuepress-theme-modern-blog@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-modern-blog/-/vuepress-theme-modern-blog-1.0.4.tgz#9463b4daac4e9bc07f0c549487f96c80f23f87d7"
+  integrity sha512-jX7rOxJo1IGkWUBCYoxxSftYH05oy2qk1HohezN6Ly7u+xlLxH9od05fLKS0pRAfZPJhDacWoR7bOpaPwui+sQ==
+  dependencies:
+    "@vuepress/plugin-back-to-top" "^1.0.0-rc.1"
+    "@vuepress/plugin-blog" "^1.2.5"
+    "@vuepress/plugin-google-analytics" "^1.1.0"
+    "@vuepress/plugin-medium-zoom" "1.0.0"
+    "@vuepress/plugin-nprogress" "1.0.0"
+    "@vuepress/plugin-pwa" "1.0.0"
+    "@vuepress/plugin-search" "1.0.0"
+    "@vuepress/theme-blog" "^1.2.5"
+    remove-markdown "^0.3.0"
+    vue-feather-icons "^4.21.0"
+    vuepress-plugin-disqus "^0.1.1"
+    vuepress-plugin-reading-progress "^1.0.7"
+    vuepress-plugin-reading-time "^0.1.1"
+    vuepress-plugin-seo "^0.1.2"
+    vuepress-plugin-sitemap "^2.1.2"
+    vuepress-plugin-smooth-scroll "^0.0.4"
+    vuepress-plugin-social-share "^0.0.6"
 
 vuepress@^1.1.0:
   version "1.1.0"
