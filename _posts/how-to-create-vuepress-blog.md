@@ -8,15 +8,14 @@ tags:
 - vuepress
 - template
 - static-site-generator
-time_to_read: 7
-title: How to create blog powered by Vuepress like my blog?
+title: How to create a blog powered by Vuepress?
 description: create your own Vuepress blog with high performance and and cool design...
 author: Ahmad Mostafa
 location: Irbid-Jordan
 image: /images/how-to-create-vuepress-blog/header-image.jpg
 meta:
   - name: description
-    content: How to create blog powered by Vuepress like my blog?
+    content: How to create a blog powered by Vuepress?
   - name: keywords
     content: Ahmad Mostafa, vuepress, blog, vue.js, profile, free template, open-source
 ---
