@@ -1,5 +1,4 @@
 ---
-category: life
 date: '2018-07-23'
 published: true
 slug: how-i-became-software-engineer
@@ -8,7 +7,6 @@ tags:
 - story
 - software
 - career
-time_to_read: 7
 title: In 4 Months How I’ve Changed My Life From a Construction Worker To a Software Engineer
 description: seems strange? read the full story.
 author: Ahmad Mostafa

@@ -1,14 +1,13 @@
 ---
 date: '2019-09-01'
-published: true
 slug: how-to-create-vuepress-blog
 tags:
 - blog
 - vue.js
 - vuepress
 - template
+- javascript
 - static-site-generator
-time_to_read: 7
 title: How to create blog powered by Vuepress like my blog?
 description: create your own Vuepress blog with high performance and and cool design...
 author: Ahmad Mostafa
