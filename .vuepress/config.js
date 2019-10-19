@@ -3,7 +3,9 @@ module.exports = {
   description: "Full Stack Software Engineer",
   theme: "modern-blog",
   themeConfig: {
-    heroImage: "/images/hero.jpeg",
+    summary: true,
+    summaryLength: 300,
+    heroImage: "https://images.unsplash.com/photo-1571291044796-b7a2b315bb7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80",
     nav: [
       {
         text: "Home",
@@ -65,38 +67,5 @@ module.exports = {
         }
       ]
     }
-  },
-  plugins: [
-    [
-      "@vuepress/blog",
-      {
-        directories: [
-          {
-            id: "post",
-            dirname: "_posts",
-            path: "/",
-            layout: "IndexPost",
-            itemLayout: "Post",
-            itemPermalink: "/:slug",
-            pagination: {
-              perPagePosts: 5
-            }
-          }
-        ],
-        frontmatters: [
-          {
-            id: "tag",
-            keys: ["tag", "tags"],
-            path: "/tag/",
-            layout: "Tags",
-            frontmatter: { title: "Tags" },
-            itemlayout: "Tag",
-            pagination: {
-              perPagePosts: 5
-            }
-          }
-        ]
-      }
-    ]
-  ]
+  }
 };
