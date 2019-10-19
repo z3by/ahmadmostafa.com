@@ -5,7 +5,7 @@ module.exports = {
   themeConfig: {
     summary: true,
     summaryLength: 300,
-    heroImage: "https://images.unsplash.com/photo-1571291044796-b7a2b315bb7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80",
+    heroImage: "/images/hero.jpeg",
     nav: [
       {
         text: "Home",
