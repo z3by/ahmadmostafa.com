@@ -51,14 +51,18 @@ module.exports = {
           link: "https://www.linkedin.com/in/z3by/"
         },
         {
+          type: "youtube",
+          link: "https://www.youtube.com/channel/UC8fZybVYhEnCe1UwwVidVcg"
+        },
+        {
           type: "twitter",
           link: "https://twitter.com/ahmad_mostafa10/"
         }
       ],
       copyright: [
         {
-          text: "Built using Vuepress-Blog-Template",
-          link: "https://github.com/z3by/vuepress-blog-template"
+          text: "This theme is available for you!",
+          link: "https://github.com/z3by/vuepress-theme-modern-blog"
         },
         {
           text: `MIT Licensed Copyright © ${new Date().getFullYear()}-present`,
