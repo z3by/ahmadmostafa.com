@@ -16,7 +16,15 @@ meta:
   - name: description
     content: how I became a software engineer
   - name: keywords
-    content: Ahmad Mostafa, Syrian Refugee, Success Story, python, django, vue.js, RBK, Jordan, software engineer
+    content: Ahmad Mostafa, Syrian Refugee, Success Story, RBK Jordan, software engineer, RebootKamp, how to become a software engineer in 4 months, career change, learn web development
+  - name: title
+    content: In 4 Months How I’ve Changed My Life From a Construction Worker To a Software Engineer
+  - name: author
+    content: Ahmad Mostafa
+  - name: language
+    content: English
+
+  
 ---
 
 

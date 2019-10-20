@@ -8,15 +8,21 @@ tags:
 - vuepress-theme
 - javascript
 title: Create a blog like this one in 5 minutes!
-description: How to create a modern vuepress blog like my Ahmad Mostafa's Website
+description: How to create a modern vuepress blog like Ahmad Mostafa's Website
 author: Ahmad Mostafa
 location: Irbid-Jordan
 image: /images/vuepress-modern-blog-theme/1.jpg
 meta:
+  - name: title
+    content: Create a blog like this one in 5 minutes!
   - name: description
-    content: How to create a modern vuepress blog like my Ahmad Mostafa's Website
+    content: How to create a modern vuepress blog like Ahmad Mostafa's Website
   - name: keywords
-    content: Ahmad Mostafa, Vuepress, Vue.js, vuepress blog, vuepress theme, vuepress blog theme, vue, create blog, blog theme, blog
+    content: Ahmad Mostafa, Vuepress, Vue.js, Vuepress website, vuepress blog, vuepress theme, vuepress blog theme, vue blog, create vuepress blog, blog theme, create a blog
+  - name: author
+    content: Ahmad Mostafa
+  - name: language
+    content: English
 ---
 
 ## Motivation

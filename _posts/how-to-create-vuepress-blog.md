@@ -14,10 +14,16 @@ author: Ahmad Mostafa
 location: Irbid-Jordan
 image: /images/how-to-create-vuepress-blog/header-image.jpg
 meta:
-  - name: description
+  - name: title
     content: How to create a blog powered by Vuepress?
+  - name: description
+    content: create your own Vuepress blog with high performance and and cool design...
   - name: keywords
-    content: Ahmad Mostafa, vuepress, blog, vue.js, profile, free template, open-source
+    content: Ahmad Mostafa, vuepress blog, vuepress, blog, vue.js, free blog template, open-source vuepress theme
+  - name: author
+    content: Ahmad Mostafa
+  - name: language
+    content: English
 ---
 
 I wanted to start blogging long time ago, but I struggled to find the perfect platform that makes me comfortable creating new blogs, so I tried many frameworks, but none of them I really liked, as each one has its own downsides, but when I tried Vuepress I found that it is the perfect way for me to go!
