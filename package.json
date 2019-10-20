@@ -1,7 +1,7 @@
 {
-  "name": "vuepress-blog-template",
+  "name": "my-profile",
   "version": "1.0.0",
-  "description": "vuepress blog template",
+  "description": "My Website & Blog",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/z3by/vuepress-blog-template.git"
+    "url": "git+https://github.com/z3by/my-profile.git"
   },
   "keywords": [
     "vue.js",
@@ -24,11 +24,11 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/z3by/vuepress-blog-template/issues"
+    "url": "https://github.com/z3by/my-profile/issues"
   },
-  "homepage": "https://github.com/z3by/vuepress-blog-template#readme",
+  "homepage": "https://github.com/z3by/my-profile#readme",
   "devDependencies": {
     "vuepress": "^1.1.0",
-    "vuepress-theme-modern-blog": "^1.0.6"
+    "vuepress-theme-modern-blog": "^1.0.7"
   }
 }
