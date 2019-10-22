@@ -3,6 +3,9 @@ module.exports = {
   description: "Full Stack Software Engineer",
   theme: "modern-blog",
   themeConfig: {
+    head: [
+      ['link', { rel: "shortcut icon", href="/favicon.png" }]
+    ],
     summary: true,
     summaryLength: 300,
     heroImage: "/images/hero.jpeg",
