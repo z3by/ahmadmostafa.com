@@ -4,7 +4,7 @@ module.exports = {
   theme: "modern-blog",
   themeConfig: {
     head: [
-      ['link', { rel: "shortcut icon", href="/favicon.png" }]
+      ['link', { rel: "shortcut icon", href: "/favicon.png" }]
     ],
     summary: true,
     summaryLength: 300,
