@@ -7,16 +7,16 @@ tags:
 - vuepress
 - vuepress-theme
 - javascript
-title: Create a blog like this one in 5 minutes!
-description: How to create a modern vuepress blog like Ahmad Mostafa's Website
+title: Create a modern vuepress blog in 5 minutes!
+description: Create a modern vuepress blog in 5 minutes!
 author: Ahmad Mostafa
 location: Irbid-Jordan
 image: /images/vuepress-modern-blog-theme/1.jpg
 meta:
   - name: title
-    content: Create a blog like this one in 5 minutes!
+    content: Create a modern vuepress blog in 5 minutes!
   - name: description
-    content: How to create a modern vuepress blog like Ahmad Mostafa's Website
+    content: create a modern vuepress blog
   - name: keywords
     content: Ahmad Mostafa, Vuepress, Vue.js, Vuepress website, vuepress blog, vuepress theme, vuepress blog theme, vue blog, create vuepress blog, blog theme, create a blog
   - name: author
@@ -25,23 +25,10 @@ meta:
     content: English
 ---
 
-## Motivation
-
-I just created this less than a month ago, I just realized how great Vuepress is, so I used the [Default Vuepress blog theme](https://github.com/vuepressjs/vuepress-theme-blog) for my blog, it is great and well done! but the thing that it doesn't have the best design ever! so I started tweaking it, and thanks to the creators it was easy to customize it, I reached to the point where I like it became! but also it was missing a lot of necessary functionality such as comments, analytics, Social sharing, Reading Time, Sitemap, etc...
-
-So I started adding those features, thanks to the most generous Open-source Community out there! I found a lot of great plugins that serve my needs.
-
-when I was done building my own Blog I found that I should give back to, and to be one of those Awesome Open-Source gangs, So I just published my for public and free usage under the name `Vuepress-theme-modern-blog`.
-
-[Github Repository](https://github.com/z3by/vuepress-theme-modern-blog) | [NPM](https://www.npmjs.com/package/vuepress-theme-modern-blog)
-
-<br>
-
-## Let's GO
-
-This is a step-by-step guide to create a website that looks a feels like my website.
 
 ### get started
+
+at the end of this tutorial you will create a vuepress blog that looks and feels like this demo [http://vp-modern.z3by.com](http://vp-modern.z3by.com),
 
 You can scaffold your project how ever you want, here we will use [Create Vuepress](https://github.com/vuepressjs/create-vuepress) with the Blog boilerplate.
 
@@ -258,8 +245,5 @@ you can add other networks to `socialShareNetworks` array.
 
 now you can see a cool floating button on the right side of your posts that help your users sharing your content! :tada:
 
-That's It! :tada: now You just have a cool website like mine! :wink: go and add some cool posts!
-
-## TLDR
-
-My website is public on github, you can fork it from [here](https://github.com/z3by/my-profile), clone it, play around with it!
+That's It! :tada:
+go and add some cool posts! :wink:
