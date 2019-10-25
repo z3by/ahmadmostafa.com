@@ -24,6 +24,7 @@ meta:
     content: Ahmad Mostafa
   - name: language
     content: English
+featured: true
 ---
 
 I wanted to start blogging long time ago, but I struggled to find the perfect platform that makes me comfortable creating new blogs, so I tried many frameworks, but none of them I really liked, as each one has its own downsides, but when I tried Vuepress I found that it is the perfect way for me to go!

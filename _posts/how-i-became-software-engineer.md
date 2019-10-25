@@ -23,8 +23,7 @@ meta:
     content: Ahmad Mostafa
   - name: language
     content: English
-
-  
+featured: true
 ---
 
 
