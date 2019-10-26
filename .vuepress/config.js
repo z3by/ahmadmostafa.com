@@ -12,11 +12,13 @@ module.exports = {
     nav: [
       {
         text: "Home",
-        link: "/"
+        link: "/",
+        icon: 'el-icon-house'
       },
       {
         text: "About",
-        link: "/pages/about/"
+        link: "/pages/about/",
+        icon: "el-icon-user"
       }
     ],
     about: {
