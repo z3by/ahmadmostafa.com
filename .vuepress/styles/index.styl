@@ -1,5 +1,21 @@
 @require './palette.styl';
 
 footer.footer {
-    background: transparentify(darken($secondaryColor, 60%), 70%) !important;
+    background: darken($secondaryColor, 30%) !important;
+}
+
+p {
+    font-size: 18px;
+}
+
+.vuepress-blog-theme-content:not(.custom) {
+    max-width: 820px;
+
+    & *:first-child {
+        margin-top: 0;
+    }
+}
+
+.sticker.vuepress-toc a {
+    font-size: 16px !important;
 }
