@@ -43,7 +43,11 @@ as Vuepress being highly customizable you can use it as a blog engine, and thank
 
 this is a step-by-step guide that helps you starting a Vuepress Blog site from starting to deployment.
 
+##### Fork
+
 let's start by forking this Repository [z3by/vuepress-blog-template](https://github.com/z3by/vuepress-blog-template)
+
+##### Create The repository
 
 now create a new repository using this repository as a template go to [https://github.com/new](https://github.com/new)
 in `Repository template` section choose `vuepress-blog-template`
@@ -53,19 +57,25 @@ in `Repository template` section choose `vuepress-blog-template`
 the created repository will have the same structure as the template, and the readme file will have some instructions on how to get started.
 let's follow these instructions, start by cloning your repository
 
+##### Clone
+
 ```bash
 git clone https://github.com/<YOUR USERNAME>/<REPOSITORY NAME>
 ```
 
-and here is the files structure
+The file structure will look like this
 
-![files structure](/images/how-to-create-vuepress-blog/2.png)
+![vuepress blog template file structure](/images/how-to-create-vuepress-blog/2.jpeg)
 
 now we need to install development dependencies, so navigate to the local repository then run
+
+##### Install dependencies
 
 ```bash
 yarn install
 ```
+
+##### Start Vuepress Development Server
 
 after that let's start the development server by running
 
@@ -77,9 +87,9 @@ now you will have the development server running on [http://localhost:8080/](htt
 
 ### Start creating new posts
 
-when you navigate to the localhost you will see the blog site with some example posts
+when you navigate to your localhost you will see some example blog posts
 
-![blog dev server](/images/how-to-create-vuepress-blog/3.png)
+![blog dev server](/images/how-to-create-vuepress-blog/3.jpeg)
 
 the example posts are in `/_posts/` directory, take a look and see how each post was built.
 
@@ -87,18 +97,16 @@ you will see at the top of each post some Yaml metadata that is called `frontmat
 
 ```yml
 ---
-date: 2019-9-9
+date: 2018-11-7
 tags:
-  - blogging
+  - frontmatter
   - vuepress
-author: Ahmad Mostafa
-location: Amman-Jordan
-summary: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vel corporis ducimus iste, quos eligendi quidem omnis alias dignissimos reiciendis odio excepturi neque nulla iusto magni reprehenderit atque voluptates dicta."
-timeToRead: 5
-# you can add a custom image to the public directory then just put the url here for example /images/....
-headerImage: "https://source.unsplash.com/random/800x400" 
+author: ULIVZ
+location: Hangzhou
+title: Front Matter in VuePress
+image: https://source.unsplash.com/random/800x600
+featured: true
 ---
-
 ```
 
 and they are just key pairs that represent the data of the articles, and then you see the actual markdown content of the post, and you can see all the markdown powers illustrated in the post content.
@@ -108,21 +116,25 @@ after adding your own post content you can get rid of the other posts.
 
 when you navigate to `/about/` section of the website you will find a small info Card about the Blog Owner like this
 
-![about page card](/images/how-to-create-vuepress-blog/4.png)
+![about page card](/images/how-to-create-vuepress-blog/4.jpeg)
 
 to change the values you need to go to `/.vuepress/config.js` and change these values to your own information.
 
 ```js
-personalPhoto: "/images/personalPhoto.png", // the base directory for this image is the public directory
-fullName: "Ahmad Mostafa", // appears in about page
-bio:
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatuquam voluptas nam dolorum minus consequuntur fugit quis repellenduhic vero praesentium facilis amet minima officia impedit, expeditquo veniam perferendis.", // appears in about page
+...
+about: {
+      fullName: "Ahmad Mostafa",
+      bio: "I am a passionate Software Engineer, I love Vue.js ♥ ...",
+      // image: "/images/image.png" / refers to the public directory
+      image: "https://www.ahmadmostafa.com/images/bg_1.png"
+    },
+...
 ```
 
 and to add links to your own social account you need to override the contact info in the footer section of the same file
 
 ```js
-....
+...
 footer: {
       contact: [
         {
@@ -146,57 +158,11 @@ footer: {
           link: "https://twitter.com/ahmad_mostafa10/"
         }
       ],
-.....
+...
 
 ```
 
 these values also show in the footer of the website.
-
-## Adding a new page
-
-now we will add a custom page, let's call it `projects`
-to do this we need to create a new folder inside `/pages/` and lets call it `projects`, then we will create a new markdown file inside it and let's call it `index.md`, then add some markdown to it for example
-
-```markdown
-# My projects
-
-## vuepress
-etc..
-```
-
-now we have our new page ready, so we will add it to the navbar
-to do so, open `/.vuepress/config.js` then add a new object to the `nav` array inside `themeConfig`
-
-```js
-...
-nav: [
-      {
-        text: "Home",
-        link: "/"
-      },
-      {
-        text: "Archive",
-        link: "/archive/"
-      },
-      {
-        text: "Tags",
-        link: "/tag/"
-      },
-      {
-        text: "About",
-        link: "/pages/about/"
-      },
-      {
-        // the text that will show in the navbar
-        text: "Projects",
-        // the link to the project directory that we created recently
-        link: "/pages/projects/"
-      }
-    ],
-...
-```
-now, when we check our site we will be having a new link in the navbar referring to the Projects page that we created! :tada:
-if you are not able to see the new page just restart the development server.
 
 ## Deployment
 
