@@ -1,0 +1,6 @@
+
+# Group 2
+User-agent: *
+Allow: /
+
+Sitemap: https://ahmadmostafa.com/sitemap.xml
