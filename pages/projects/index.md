@@ -42,4 +42,17 @@ projects:
         - Serverless
         - JavaScript
         - Vue
+    - title: vue-themify-icons
+      description: Vue.js themify icons package
+      link: https://github.com/arab-open-source/vue-themify-icons
+      languages:
+        - Vue
+        - CSS
+        - Themify
+    - title: vuepress-themes
+      description: A curated collection of Awesome vuepress themes
+      link: https://github.com/arab-open-source/vuepress-themes
+      languages:
+        - Vue
+        - CSS
 ---
