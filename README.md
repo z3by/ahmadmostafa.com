@@ -2,8 +2,6 @@
 
 a vuepress blog example
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8ed35817-7428-4e82-85f8-fe85b6ae7b2c/deploy-status)](https://app.netlify.com/sites/loving-tereshkova-33863e/deploys)
-
 ## [Live Demo](https://vuepress-blog-template.z3by.com/)
 
 ## Getting Started
