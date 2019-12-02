@@ -8,7 +8,7 @@ module.exports = {
       ['link', { rel: "shortcut icon", href: "/favicon.png" }]
     ],
     summary: true,
-    summaryLength: 500,
+    summaryLength: 300,
     heroImage: "/images/hero.jpeg",
     nav: [
       {

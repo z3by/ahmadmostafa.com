@@ -7688,10 +7688,10 @@ vuepress-plugin-social-share@^0.0.6:
   dependencies:
     "@goy/vuepress-plugin-svg-icons" "^3.1.1"
 
-vuepress-theme-modern-blog@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-modern-blog/-/vuepress-theme-modern-blog-2.0.4.tgz#6d02677fd5745c0c15a729ec9c93a459c73e4525"
-  integrity sha512-psPQNyBUlRhsbpaUUYQGeYt7OdILbFysppCum3VPtEbI/QfqWsOADA4fB77dajzGPsP71owI8cTKIu+2K5/U9w==
+vuepress-theme-modern-blog@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-modern-blog/-/vuepress-theme-modern-blog-2.1.0.tgz#a91fee120c9170ccfbd74cbf382a8a040b448c47"
+  integrity sha512-/vPl+JyxrNGLF4mreoOuGWXASlcLiwUQxksLgkRBFwDvyCwPa0ufeHHNLj9x3a0OOPbk+GZw3klVPPDTV/CFMQ==
   dependencies:
     "@vuepress/plugin-back-to-top" "^1.0.0-rc.1"
     "@vuepress/plugin-blog" "^1.2.5"
