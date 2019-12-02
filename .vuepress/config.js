@@ -2,7 +2,6 @@ module.exports = {
   title: "Ahmad Mostafa",
   description: "Full Stack Software Engineer",
   theme: "modern-blog",
-  base: '/my-profile/',
   themeConfig: {
     head: [
       ['link', { rel: "shortcut icon", href: "/favicon.png" }]
