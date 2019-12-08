@@ -16,11 +16,6 @@ module.exports = {
         icon: 'el-icon-house'
       },
       {
-        text: "About",
-        link: "/pages/about/",
-        icon: "el-icon-user"
-      },
-      {
         text: "Projects",
         link: "/pages/projects/",
         icon: "el-icon-folder"
