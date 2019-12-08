@@ -5,7 +5,7 @@ slug: how-i-became-software-engineer
 tags:
 - inspire
 - story
-- software
+- software-engineering
 - career
 title: In 4 Months How I’ve Changed My Life From a Construction Worker To a Software Engineer
 description: seems strange? read the full story.
