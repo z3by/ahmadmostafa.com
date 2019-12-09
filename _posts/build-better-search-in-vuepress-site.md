@@ -2,10 +2,10 @@
 date: '2019-12-09'
 slug: build-better-search-in-vuepress-site
 tags:
-- open-source
-- github
-- career
-- software-engineering
+- Vue.js
+- Vuepress
+- Search
+- Indexing
 title: Build a better search in Vuepress
 description: How to build better search in vuepress and vue.js
 author: Ahmad Mostafa
