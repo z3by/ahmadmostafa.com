@@ -34,15 +34,17 @@ I started by publishing my own website vuepress theme, I called it vuepress-them
 ## Creating Arab open-source community
 2 weeks ago I created this community and invited some of my best developers fellows to join me contributing to this community so we grow and learn together, the motive to create such a community is to keep myself close to my fellows while building things the improves the Arabic content, and because I can not do great things alone.
 
-## Arab open-source community ِearly projects
+## [Arab open-source community](https://github.com/arab-open-source) early projects
 
-### vue-themify-icons
+### [vue-themify-icons](https://github.com/arab-open-source/vue-themify-icons)
 A small and light-weight npm package for Vue.js that lets you use Themify free icons in Vue.js apps, I liked the icons package because it designed to be clean, light and aesthetic, so I wanted it to be available in vue.js app easily.
 
-### vuepress-theme-material
+### [vuepress-theme-material](https://github.com/arab-open-source/vuepress-theme-material)
+
 A vuepress theme that adheres to the Material design, I decided to create this package because I wanted to combine the awesomeness of Material design with the incredible vuepress to create great documentation sites.
 
-## Mostamal
+### [Mostamal](https://github.com/arab-open-source/mostamal)
+
 A web app that meant to be free, and open-source for selling or buying used stuff online, I am actually more into Vuejs but I React.js is a very popular javascript framework, so we might get more contributions if we used it.
 
 ## What is next
