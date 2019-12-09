@@ -1,9 +1,5 @@
 @require './palette.styl';
 
-.sticker.vuepress-toc a {
-    font-size: 16px !important;
-}
-
 .el-link--inner {
     color: $accentColor;
 }
@@ -15,4 +11,13 @@
 
 .home-hero {
     background-color: $accentColor !important;
+}
+
+.content__default {
+    h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+        content: '';
+        margin-top: 1rem;
+        display: block;
+        height: 1rem;
+    }
 }
