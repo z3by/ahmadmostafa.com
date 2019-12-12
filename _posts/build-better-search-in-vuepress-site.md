@@ -31,7 +31,7 @@ featured: true
 
 ## Using Algolia to index your site
 
-[Algolia](https://www.algolia.com/) define themselves as "Fast, reliable and modern search and discovery", it is a service that helps your site to provide a better search functionality, their services varies from site indexing to API indexing, to query ranking, to Voice search, etc...
+[Algolia](https://www.algolia.com/) define themselves as "Fast, reliable and modern search and discovery", it is a service that helps your site to provide better search functionality, their services vary from site indexing to API indexing, to query ranking, to Voice search, etc...
 
 [Vuepress](https://vuepress.vuejs.org/) is integrated by default with [Algolia](https://www.algolia.com/) with a service called [Doc Search](https://community.algolia.com/docsearch/), you can create an account and request to index your documentation site, this is pretty good service for Open-source software documentation sites, and it is being used by different popular sites such as:
 
@@ -41,7 +41,7 @@ featured: true
 - [Moments.js](https://momentjs.com/)
 - ...
 
-I submitted one site but they rejected it, but if you were lucky you can add it to your site by following The official documentation [here :wave:](https://vuepress.vuejs.org/theme/default-theme-config.html#algolia-docsearch)
+I submitted one site but they rejected it, but if you were lucky you can add it to your site by following the official documentation [here :wave:](https://vuepress.vuejs.org/theme/default-theme-config.html#algolia-docsearch)
 
 ## Using Google custom search engine
 
@@ -49,9 +49,9 @@ My second option was [Google custom search engine](https://cse.google.com/cse/al
 
 ## Using a local search library
 
-I found a plenty of other third party providers, but I decided to build my own local search index, but thanks to [FlexSearch](https://github.com/nextapps-de/flexsearch) I did not need to re-invent the wheel, [FlexSearch](https://github.com/nextapps-de/flexsearch) define themselves as "Web's fastest and most memory-flexible full-text search library with zero dependencies.", I found that is true!
+I found plenty of other third-party providers, but I decided to build my own local search index, but thanks to [FlexSearch](https://github.com/nextapps-de/flexsearch) I did not need to re-invent the wheel, [FlexSearch](https://github.com/nextapps-de/flexsearch) define themselves as "Web's fastest and most memory-flexible full-text search library with zero dependencies.", I found that is true!
 
-here I will show you how I've built my custom search engine within few lines!
+here I will show you how I've built my custom search engine within a few lines!
 
 first I installed FlexSearch
 
@@ -59,7 +59,7 @@ first I installed FlexSearch
 npm install nextapps-de/flexsearch
 ```
 
-Then in my Search Component I used it as following.
+Then in my Search Component, I used it as follows.
 
 ```javascript
 // SearchBox.vue
