@@ -1,21 +1,6 @@
 ---
 layout: ProjectsLayout
 projects:
-    - title: vue-themify-icons
-      link: https://arab-open-source.github.io/vue-themify-icons/
-      description: Vue.js themify icons package
-      github: https://github.com/arab-open-source/vue-themify-icons
-      languages:
-        - Vue
-        - CSS
-        - Themify
-    - title: vuepress-theme-modern-blog
-      description: A modern blog theme for VuePress.
-      github: https://github.com/z3by/vuepress-theme-modern-blog
-      languages:
-        - Vuepress
-        - JavaScript
-        - Vue
     - title: vuepress.tools
       description: A curated collection of Awesome vuepress tools.
       github: https://github.com/arab-open-source/vuepress-tools
@@ -77,4 +62,19 @@ projects:
         - Vue
         - JavaScript
         - Vuepress
+    - title: vue-themify-icons
+      link: https://arab-open-source.github.io/vue-themify-icons/
+      description: Vue.js themify icons package
+      github: https://github.com/arab-open-source/vue-themify-icons
+      languages:
+        - Vue
+        - CSS
+        - Themify
+    - title: vuepress-theme-modern-blog
+      description: A modern blog theme for VuePress.
+      github: https://github.com/z3by/vuepress-theme-modern-blog
+      languages:
+        - Vuepress
+        - JavaScript
+        - Vue
 ---
