@@ -1,13 +1,14 @@
 ---
 layout: ProjectsLayout
 projects:
-    - title: vuepress-blog-template
-      description: boilerplate for starting a new Vuepress blog app.
-      github: https://github.com/z3by/vuepress-blog-template
+    - title: vue-themify-icons
+      link: https://arab-open-source.github.io/vue-themify-icons/
+      description: Vue.js themify icons package
+      github: https://github.com/arab-open-source/vue-themify-icons
       languages:
         - Vue
-        - JavaScript
-        - Vuepress
+        - CSS
+        - Themify
     - title: vuepress-theme-modern-blog
       description: A modern blog theme for VuePress.
       github: https://github.com/z3by/vuepress-theme-modern-blog
@@ -15,6 +16,13 @@ projects:
         - Vuepress
         - JavaScript
         - Vue
+    - title: vuepress.tools
+      description: A curated collection of Awesome vuepress tools.
+      github: https://github.com/arab-open-source/vuepress-tools
+      languages:
+        - Vue
+        - Vuepress
+        - Github-API
     - title: pydanny-v2
       description: A personal blog for the Awesome @Pydanny
       github: https://github.com/pydanny/pydanny-v2
@@ -23,6 +31,13 @@ projects:
         - Vuepress
         - JavaScript
         - Vue
+    - title: vuepress-blog-template
+      description: boilerplate for starting a new Vuepress blog app.
+      github: https://github.com/z3by/vuepress-blog-template
+      languages:
+        - Vue
+        - JavaScript
+        - Vuepress
     - title: bloggy
       description: A simple blog app built using django Framework.
       github: https://github.com/z3by/bloggy
@@ -45,14 +60,6 @@ projects:
         - Serverless
         - JavaScript
         - Vue
-    - title: vue-themify-icons
-      link: https://arab-open-source.github.io/vue-themify-icons/
-      description: Vue.js themify icons package
-      github: https://github.com/arab-open-source/vue-themify-icons
-      languages:
-        - Vue
-        - CSS
-        - Themify
     - title: vuepress-themes
       description: A curated collection of Awesome vuepress themes
       github: https://github.com/arab-open-source/vuepress-themes
