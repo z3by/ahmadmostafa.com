@@ -48,6 +48,7 @@ projects:
     - title: vuepress-theme-britecore
       description: A Vuepress theme powered by BriteCore UI design system.
       github: https://github.com/z3by/vuepress-theme-britecore
+      link: https://vp-britecore.z3by.com/
       languages:
         - Vue
         - JavaScript
@@ -60,11 +61,20 @@ projects:
         - Serverless
         - JavaScript
         - Vue
-    - title: vuepress-themes
-      description: A curated collection of Awesome vuepress themes
-      github: https://github.com/arab-open-source/vuepress-themes
-      link: https://vuepress-themes.z3by.com/
+    - title: vuepress-theme-vuetify
+      description: Material-design Vuepress theme.
+      github: https://github.com/arab-open-source/vuepress-theme-vuetify
+      link: https://vuepress-theme-vuetify.netlify.com
       languages:
         - Vue
-        - CSS
+        - JavaScript
+        - Vuepress
+    - title: vuepress-theme-medium
+      description: Medium-Like Vuepress theme.
+      github: https://github.com/z3by/vuepress-theme-medium
+      link: https://vuepress-theme-medium.z3by.com/
+      languages:
+        - Vue
+        - JavaScript
+        - Vuepress
 ---
