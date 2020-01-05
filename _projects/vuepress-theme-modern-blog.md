@@ -83,7 +83,6 @@ module.exports = {
 
 #### footer.contact
 
-
 - Type: `Array<{ type: ContactType, link: string }>`
 - Default: `undefined`
 
@@ -217,14 +216,12 @@ Here is the default blog plugin options:
 
 - [Document Classifier](https://vuepress-plugin-blog.ulivz.com/#document-classifier)
 
-
 ### summary
 
 - Type: `boolean`
 - Default: `true`
 
 Whether to extract summary from source markdowns.
-
 
 ### summaryLength
 
@@ -278,7 +275,6 @@ Disqus website short name check [official website](https://disqus.com/)
 
 to enable this plugin you need to define:
 
-
 ```js
 ...
   sitemap: true,
@@ -308,6 +304,7 @@ e.g
 ```
 
 ### googleAnalytics
+
 Google analytics tracking ID
 
 - Type: `string`
@@ -320,18 +317,18 @@ Google analytics tracking ID
 
 Custom the pagination component.
 
-The default is the 
-[pagination component](https://vuepress-plugin-blog.ulivz.com/components/#pagination) powerful by 
+The default is the
+[pagination component](https://vuepress-plugin-blog.ulivz.com/components/#pagination) powerful by
 [@vuepress/plugin-blog](https://github.com/ulivz/vuepress-plugin-blog):
 
-<img src="./assets/pagination.png" width="250" height="" style=""/>
+<img src="https://raw.githubusercontent.com/z3by/vuepress-theme-modern-blog/master/assets/pagination.png" width="250" height="" style=""/>
 
-You can set this option to `SimplePagination` to enable another out-of-box 
+You can set this option to `SimplePagination` to enable another out-of-box
 [simple pagination component](https://vuepress-plugin-blog.ulivz.com/components/#simplepagination):
 
-<img src="./assets/simple-pagination.png" width="250" height="" style=""/>
+<img src="https://raw.githubusercontent.com/z3by/vuepress-theme-modern-blog/master/assets/simple-pagination.png" width="250" height="" style=""/>
 
-You can also wirte a custom pagination component and register it as a global component. then pass its
+You can also write a custom pagination component and register it as a global component. then pass its
 name to this option.
 
 ## Front Matter
@@ -345,7 +342,7 @@ e.g.
 
 ```markdown
 ---
-tags: 
+tags:
   - JavaScript
   - DOM
 ---
@@ -398,7 +395,6 @@ title will be shown in the posts list
 title: Front Matter in VuePress
 ---
 ```
-
 
 ### image
 
