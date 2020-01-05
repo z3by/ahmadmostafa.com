@@ -4,7 +4,6 @@ slug: ahmad-mostafa's-plans-for-2020
 tags:
 - career
 - personal
-- 2020
 title: My plans for 2020 🚀
 description: here are 5 goals I am committed to in 2020
 author: Ahmad Mostafa
