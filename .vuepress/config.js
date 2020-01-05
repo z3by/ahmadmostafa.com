@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         text: "Projects",
-        link: "/pages/projects/",
+        link: "/projects/",
         icon: "el-icon-folder"
       }
     ],

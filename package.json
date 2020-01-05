@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/z3by/my-profile#readme",
   "devDependencies": {
-    "vuepress": "^1.1.0",
-    "vuepress-theme-modern-blog": "^2.3.1"
+    "vuepress": "^1.2.0",
+    "vuepress-theme-modern-blog": "^2.4.1"
   }
 }
