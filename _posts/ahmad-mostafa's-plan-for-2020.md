@@ -8,7 +8,7 @@ title: My plans for 2020 🚀
 description: here are 5 goals I am committed to in 2020
 author: Ahmad Mostafa
 location: Irbid-Jordan
-image: /images/ahmad-mostafa's-plans-for-2020/1.jpeg
+image: /images/plans-for-2020/1.jpeg
 meta:
   - name: title
     content: My plans for 2020 🚀

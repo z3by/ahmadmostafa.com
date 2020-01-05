@@ -15,7 +15,7 @@ module.exports = {
       ['meta', { name: "theme-color", content: "#ffffff" }],
     ],
     summary: true,
-    summaryLength: 600,
+    summaryLength: 300,
     heroImage: "/images/hero.jpeg",
     nav: [
       {
