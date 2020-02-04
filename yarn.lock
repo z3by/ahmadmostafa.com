@@ -8313,6 +8313,11 @@ vuepress-plugin-container@^2.0.2:
   dependencies:
     markdown-it-container "^2.0.0"
 
+vuepress-plugin-crisp@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-crisp/-/vuepress-plugin-crisp-1.0.0.tgz#610aeec18842dcdc6ce0b364972e54ce6f7e1790"
+  integrity sha512-uak3dKvE4g9buqeHZA/VTU6OoK+8SFLWiSQBaidwfWD4AbOlnT23KigZ6vLbrrzCD+igiK6QuZyN5E7iaetFjA==
+
 vuepress-plugin-disqus@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-disqus/-/vuepress-plugin-disqus-0.1.1.tgz#226cc39d54b8e7cfc330b36a55fbd4c4315faff5"

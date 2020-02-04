@@ -80,5 +80,13 @@ module.exports = {
         }
       ]
     }
-  }
+  },
+
+  plugins: [
+    [
+      'crisp', {
+        siteID: "dd982aa2-b33e-432d-88a5-b14a031cee97"
+      }
+    ]
+  ]
 };
