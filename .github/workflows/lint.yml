@@ -10,10 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: markdownlint-cli
-      uses: z3by/github-action-vuepress-check@v0.0.2
-      with:
-        files: .
-        config_file: .markdownlint.yml
+      uses: z3by/ahmadmostafa.com/.github/workflows/docker/lint/Dockerfile
       env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
     - name: Commit files
