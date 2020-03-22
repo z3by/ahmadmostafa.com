@@ -48,29 +48,17 @@ module.exports = {
           link: "https://github.com/z3by/"
         },
         {
-          type: "instagram",
-          link: "https://instagram.com/z3bya/"
-        },
-        {
-          type: "facebook",
-          link: "https://facebook.com/ahmad.mostafa.z3by/"
-        },
-        {
           type: "linkedin",
           link: "https://www.linkedin.com/in/z3by/"
         },
         {
           type: "youtube",
           link: "https://www.youtube.com/channel/UC8fZybVYhEnCe1UwwVidVcg"
-        },
-        {
-          type: "twitter",
-          link: "https://twitter.com/ahmad_mostafa10/"
         }
       ],
       copyright: [
         {
-          text: "This theme is available for you!",
+          text: "This theme is available for free!",
           link: "https://github.com/z3by/vuepress-theme-modern-blog"
         },
         {
