@@ -29,8 +29,7 @@ I know some people think that it is kind of ridiculous practice to put plans bas
 
 ## 5 goals to achieve in 2020
 
-### Being an AWS (Amazon Web Services) certified
-
+### Being an AWS (Amazon Web Services) certified ✅ Done
 I am planning to be an [AWS Certified Solutions Architect – Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
 by passing the exam, I feel comfortable right now using AWS for various cloud services, but I want to be more confident creating high-available, resilient, scalable, well architected Web services.
 
@@ -48,7 +47,7 @@ I already started improving my english proficiency, and this blog is one of the 
 
 ### Publishing a good open-source side project
 
-I will publish a web app called [Friday Souq](https://github.com/arab-open-source/friday-souq) I just kicked off this project, the main purpose is to master [Vue.js](https://vuejs.org/), [Django](https://www.djangoproject.com/), (AWS)[<https://aws.amazon.com/]> in an Open-Source environment trying to get some contributions, to get more knowledge of open-source practices.
+I will publish a web app called [Friday Souq](https://github.com/arab-open-source/friday-souq) I just kicked off this project, the main purpose is to master [Vue.js](https://vuejs.org/), [Django](https://www.djangoproject.com/), [AWS](https://aws.amazon.com/) in an Open-Source environment trying to get some contributions, to get more knowledge of open-source practices.
 
 ### Contributing to existing open-source projects
 
