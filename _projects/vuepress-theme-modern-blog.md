@@ -79,9 +79,37 @@ module.exports = {
 }
 ```
 
+### posts
+
+#### posts.prepend
+
+- Type: `String`
+- Default: `undefined`
+
+Prepend a chunk of text or HTML to the body of each post.
+
+#### posts.append
+
+- Type: `String`
+- Default: `undefined`
+
+Append a chunk of text or HTML to the body of each post.
+
+```js
+module.exports = {
+  themeConfig: {
+    posts: {
+      prepend: "Hi, I hope you'll <i>enjoy</i> this post!",
+      append: "Hi, I hope you've <b>enjoyed</b> this post!",
+    },
+  },
+}
+```
+
 ### footer
 
 #### footer.contact
+
 
 - Type: `Array<{ type: ContactType, link: string }>`
 - Default: `undefined`
@@ -114,6 +142,7 @@ For now `ContactType` supports following enums:
 - twitter
 - instagram
 - linkedin
+- phone
 
 ::: tip
 Welcome contribution of adding more built-in contact type.
@@ -158,7 +187,7 @@ module.exports = {
         itemLayout: 'Writing',
         itemPermalink: '/writings/:year/:month/:day/:slug',
         pagination: {
-          perPagePosts: 5,
+          lengthPerPage: 5,
         },
       }
       blogPlugnOptions.directories.push(writingDirectoryClassifier)
@@ -181,7 +210,7 @@ Here is the default blog plugin options:
       itemLayout: 'Post',
       itemPermalink: '/:year/:month/:day/:slug',
       pagination: {
-        perPagePosts: 5,
+        lengthPerPage: 5,
       },
     },
     {
@@ -192,7 +221,7 @@ Here is the default blog plugin options:
       itemLayout: 'Post',
       itemPermalink: '/archive/:year/:month/:day/:slug',
       pagination: {
-        perPagePosts: 5,
+        lengthPerPage: 5,
       },
     },
   ],
@@ -205,7 +234,7 @@ Here is the default blog plugin options:
       frontmatter: { title: 'Tags' },
       itemlayout: 'Tag',
       pagination: {
-        perPagePosts: 5
+        lengthPerPage: 5
       }
     },
   ]
@@ -216,12 +245,48 @@ Here is the default blog plugin options:
 
 - [Document Classifier](https://vuepress-plugin-blog.ulivz.com/#document-classifier)
 
+
 ### summary
 
-- Type: `boolean`
+- Type: `boolean` or `object`
 - Default: `true`
 
-Whether to extract summary from source markdowns.
+Whether to extract summary from source markdowns. If this value is set to `true`,
+the `summaryLenth` will be used to slice the text. If, on the other hand, this
+value is set to an object, you'll be able to specify a more complex pattern for
+the extraction of the summary. Available options:
+
+```js
+{
+  /*
+  Get as many paragraphs as the value of this property is set to. A paragraph
+  is considered to be a chunk of text followed by a "\n\n", but you can use
+  "paragraphsSeparator" in order to specify your own separator.
+
+  Once the chunks of text are splitted (with "paragraphsSeparator"), the first N
+  (as specified by the "paragraphs" property) chunks are obtained and joined
+  using the "paragrahpsJoiner" text, which is "<br><br>" by default.
+  */
+  paragraphs: 0,
+  paragraphsSeparator: "\n\n",
+  paragrahpsJoiner: "<br><br>",
+
+  /*
+  If you want the summary to extend until a given text pattern is found, use
+  this option. If the "stopSymbol" symbol is not found, the "summaryLength" will
+  be used as a safe fallback.
+  */
+  stopSymbol: '',
+
+  /*
+  Use these two options to append and/or prepend any text you want to the
+  summary.
+  */
+  prepend: ''
+  append: '',
+}
+```
+
 
 ### summaryLength
 
@@ -275,6 +340,7 @@ Disqus website short name check [official website](https://disqus.com/)
 
 to enable this plugin you need to define:
 
+
 ```js
 ...
   sitemap: true,
@@ -304,7 +370,6 @@ e.g
 ```
 
 ### googleAnalytics
-
 Google analytics tracking ID
 
 - Type: `string`
@@ -321,14 +386,14 @@ The default is the
 [pagination component](https://vuepress-plugin-blog.ulivz.com/components/#pagination) powerful by
 [@vuepress/plugin-blog](https://github.com/ulivz/vuepress-plugin-blog):
 
-<img src="https://raw.githubusercontent.com/z3by/vuepress-theme-modern-blog/master/assets/pagination.png" width="250" height="" style=""/>
+<img src="./assets/pagination.png" width="250" height="" style=""/>
 
 You can set this option to `SimplePagination` to enable another out-of-box
 [simple pagination component](https://vuepress-plugin-blog.ulivz.com/components/#simplepagination):
 
-<img src="https://raw.githubusercontent.com/z3by/vuepress-theme-modern-blog/master/assets/simple-pagination.png" width="250" height="" style=""/>
+<img src="./assets/simple-pagination.png" width="250" height="" style=""/>
 
-You can also write a custom pagination component and register it as a global component. then pass its
+You can also wirte a custom pagination component and register it as a global component. then pass its
 name to this option.
 
 ## Front Matter
@@ -396,12 +461,24 @@ title: Front Matter in VuePress
 ---
 ```
 
+
 ### image
 
-header image for the post item
+header image for the post item and the preview image in the list of posts.
 
 ```markdown
 ---
 image: https://source.unsplash.com/random
+---
+```
+
+### postcard_image
+
+preview image for the post item in the list of posts. This property will
+override the "image" property.
+
+```markdown
+---
+postcard_image: https://source.unsplash.com/random
 ---
 ```
