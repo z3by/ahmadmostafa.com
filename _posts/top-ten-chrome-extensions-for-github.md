@@ -6,7 +6,7 @@ tags:
 - github
 - top-10
 - browsers
-title: Top 10 Chrome extension for GitHub you should try right now!
+title: Top 10 Chrome extensions for GitHub you should try right now!
 description: Here are my top 10 list of great chrome extensions for GitHub.
 author: Ahmad Mostafa
 location: Jordan
@@ -17,7 +17,7 @@ meta:
   - name: keywords
     content: Ahmad Mostafa, Github, chrome, chrome extensions
   - name: title
-    content: Top 10 Chrome extension for GitHub you should try right now!
+    content: Top 10 Chrome extensions for GitHub you should try right now!
   - name: author
     content: Ahmad Mostafa
   - name: language
