@@ -2,10 +2,10 @@
 date: '2019-12-09'
 slug: build-better-search-in-vuepress-site
 tags:
-- Vue.js
-- Vuepress
-- Search
-- Indexing
+- vue.js
+- vuepress
+- search
+- indexing
 title: Build a better search in Vuepress
 description: How to build better search in vuepress and vue.js
 author: Ahmad Mostafa
