@@ -1,7 +1,7 @@
 ---
 title: vuepress.tools
 description: A curated collection of Awesome vuepress tools.
-github: https://github.com/arab-open-source/vuepress-tools
+github: https://github.com/z3by/vuepress-tools
 languages:
         - Vue
         - Vuepress
