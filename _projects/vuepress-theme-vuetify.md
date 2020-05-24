@@ -1,7 +1,7 @@
 ---
 title: vuepress-theme-vuetify
 description: Material-design Vuepress theme.
-github: https://github.com/arab-open-source/vuepress-theme-vuetify
+github: https://github.com/z3by/vuepress-theme-vuetify
 link: https://vuepress-theme-vuetify.netlify.com
 languages:
   - Vue
