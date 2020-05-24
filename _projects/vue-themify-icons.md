@@ -2,7 +2,7 @@
 title: vue-themify-icons
 link: https://z3by.github.io/vue-themify-icons/
 description: Vue.js themify icons package
-github: https://github.com/arab-open-source/vue-themify-icons
+github: https://github.com/z3by/vue-themify-icons
 languages:
   - Vue
   - CSS

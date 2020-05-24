@@ -47,7 +47,7 @@ I already started improving my english proficiency, and this blog is one of the 
 
 ### Publishing a good open-source side project
 
-I will publish a web app called [Friday Souq](https://github.com/arab-open-source/friday-souq) I just kicked off this project, the main purpose is to master [Vue.js](https://vuejs.org/), [Django](https://www.djangoproject.com/), [AWS](https://aws.amazon.com/) in an Open-Source environment trying to get some contributions, to get more knowledge of open-source practices.
+I will publish a web app called [Friday Souq](https://github.com/z3by/friday-souq) I just kicked off this project, the main purpose is to master [Vue.js](https://vuejs.org/), [Django](https://www.djangoproject.com/), [AWS](https://aws.amazon.com/) in an Open-Source environment trying to get some contributions, to get more knowledge of open-source practices.
 
 ### Contributing to existing open-source projects
 
