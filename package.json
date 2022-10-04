@@ -30,6 +30,6 @@
   "devDependencies": {
     "vuepress": "^1.2.0",
     "vuepress-plugin-crisp": "^1.0.0",
-    "vuepress-theme-modern-blog": "2.9.0"
+    "vuepress-theme-modern-blog": "2.12.1"
   }
 }
